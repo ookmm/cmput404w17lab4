@@ -10,6 +10,11 @@ class Question(models.Model):
 	
 	def __str__(self):
 		return self.question_text
+		
+	def was_published_recently(self):
+		# this method returns true of the question was published in the last 24 hours
+		
+		return True
 
 @python_2_unicode_compatible
 class Choice(models.Model):

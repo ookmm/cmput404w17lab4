@@ -1,0 +1,22 @@
+/* css comment */
+
+body {
+	background: #F2F6F8;
+}
+
+a {
+	text-decoration: none;
+	color: #33B4FF;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	animation: spin 3s linear infinite;
+}
+
+spin {
+	0%
+}
